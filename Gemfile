@@ -42,6 +42,7 @@ group :development, :test do
   gem 'rubocop',                '~> 0.60', require: false
   gem 'rubocop-rspec',          '~> 1.28', require: false
   gem 'fuubar', '~> 2.3'
+  gem 'dotenv-rails', '~> 2.5'
 end
 
 group :development do
@@ -51,7 +52,6 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'foreman'
 end
 
 group :test do
